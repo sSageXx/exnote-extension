@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "exNote",
+  "version": "1.0",
+  "description": "exNote is a extension that helps you save text or make notes in a easy way",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "/images/icon128.png"
+  },
+  "author": "carlo.stefano.torres@gmail.com"
+}
