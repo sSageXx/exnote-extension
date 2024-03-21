@@ -9,21 +9,26 @@
     <title>exNote</title>
     <link rel="icon" type="image/x-icon" href="images/icon128_transparent.png">
 </head>
+
 <body>
     <header>
-        <img id="logo-img" src="images/icon128_transparent.png" alt="exNote logo">
-        ote
+        <a href="https://carlostefanotorresgabrielli.netlify.app/" target="_blank">
+            <img id="logo-img" src="images/icon128_transparent.png" alt="exNote logo">
+            <p id="logo-text">ote</p>
+        </a>
     </header>
 
     <main>
         <input id="input-el" type="text">
 
         <div id="btn-wrapper">
-            <button id="save-btn">Save Note</button>
+            <button id="save-btn">Save Input</button>
+            <button id="tab-btn">Save Tab</button>
             <button id="clear-btn">Clear Notes</button>
         </div>
 
-        <ul id="notes-ul"></ul>
+        <ul id="leads-ul"></ul>
+
         <script src="index.js"></script>
     </main>
 </body>
